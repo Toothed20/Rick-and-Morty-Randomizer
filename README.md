@@ -17,7 +17,7 @@
 - **Rick and Morty API:** [Fuente de datos](https://rickandmortyapi.com/).
 - **SpinKit:** [Galería de spinners](https://tobiasahlin.com/spinkit/).
 - **Lucide:** [Galería de iconos SVG gratuitos](https://lucide.dev/).
-- **Fontawesome:** [Galería de iconos SVG gratuitos de y paga](https://lucide.dev/).
+- **Fontawesome:** [Galería de iconos SVG gratuitos y de paga](https://lucide.dev/).
 
 ## ✨ Características (Features)
 - [x] **Diseño Responsive:** Adaptado para móviles, tablets y escritorio.
