@@ -1,0 +1,43 @@
+@media (max-width: 767px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .main-container {
+        gap: 3rem;
+    }
+
+    .error {
+        width: 90%;
+        font-size: 2rem;
+    }
+
+    .card {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        place-items: center;
+    }
+
+    .img-character {
+        height: 15rem;
+    }
+
+    .name {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .icon-flex {
+        font-size: 2rem;
+    }
+
+    .enfasis-episode {
+        text-align: center;
+    }
+
+    .btn {
+        width: 90%;
+        color: #000;
+    }
+}

@@ -1,0 +1,162 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    min-height: 100dvh;
+    max-height: auto;
+    background-image: url(../img/background_6.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+}
+
+.title {
+    font-size: 6rem;
+    font-family: "Creepster", system-ui;
+    line-height: normal;
+    color: #42b4ca;
+    -webkit-text-stroke: 0.5px #b3e028;
+    text-align: center;
+    margin: 0 0 2rem 0;
+    padding: 1rem 0;
+    /* background-color: #1e2838; */
+
+    background-color: rgba(30, 35, 30, 0.7);
+    backdrop-filter: blur(12px);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    gap: 5rem;
+}
+
+.error {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #D75656;
+    width: 70rem;
+    padding: 1rem 0;
+    border-radius: 0.8rem;
+    border: solid 4px #AE2448;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.card {
+    width: 70rem;
+    height: auto;
+    background-color: rgba(30, 35, 30, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /* Soporte para Safari */
+
+    border: 2px solid #57ff57;
+    border-radius: 1.6rem;
+    box-shadow: 0 0 15px rgba(87, 255, 87, 0.2);
+    padding: 2rem;
+    color: white;
+
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(6, auto);
+    column-gap: 3rem;
+    align-items: center;
+}
+
+.img-character {
+    height: 25rem;
+    border: 2px solid #57ff57;
+    border-radius: 1.6rem;
+    place-self: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 7;
+}
+
+.name {
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    line-height: normal;
+    margin: 0;
+}
+
+.dead {
+    color: red;
+}
+
+.alive {
+    color: green;
+}
+
+.unknown {
+    color: gray;
+}
+
+.enfasis {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5rem;
+}
+
+.icon-flex {
+    font-size: 2rem;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.enfasis-episode {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.btn {
+    border: none;
+    border-radius: 1rem;
+    background-color: #78ef8a;
+    width: 40rem;
+    padding: 1rem 0;
+    cursor: pointer;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    transition: all 0.3s ease-in;
+    margin-bottom: 3rem;
+}
+
+@media (hover: hover) {
+    .btn:hover {
+        transform: scale(1.2);
+    }
+}
